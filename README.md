@@ -21,10 +21,5 @@ You can view a live demo of this portfolio at [my-portfolio](https://65b67aee2dd
 - [Bootstrap](https://getbootstrap.com/) for styling
 - [FontAwesome](https://fontawesome.com/) for icons
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/your-portfolio.git](https://github.com/Priya-Sivalingam/My-Portfolio-.git)
 
 
