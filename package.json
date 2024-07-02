@@ -1,5 +1,6 @@
 {
   "name": "potfolio-website",
+  "homepage":"http://myportfolio.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

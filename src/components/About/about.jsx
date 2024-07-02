@@ -15,9 +15,10 @@ const About = () => {
       </div>
 
       <div className="about_content">
-        <p>I’m a software engineering student with a passion for technology. Committed to continuous learning and growth in the field of
-engineering. A flexible person seeking a position that allows for collaboration within a dynamic team environment, fostering creativity, and achieving
-common goals.</p>
+        <p>I’m a Computer engineering student with a passion for technology. 
+        Committed to continuous learning and growth in the field of engineering. 
+        A flexible person seeking a position that allows for collaboration within a dynamic
+team environment, fostering creativity, and achieving common goals. I believe in teamwork and I always consider the best outcome for the team.</p>
     
     <a href='#contacts' className='btn btn-primary '>Contact me</a>
 

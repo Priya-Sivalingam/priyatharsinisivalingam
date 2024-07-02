@@ -1,57 +1,62 @@
-.container.contact_container{
+.container.contact_container {
     width: 58%;
     display: grid;
     grid-template-columns: 30% 29%;
     gap: 12%;
     position: relative;
+    margin: 0 auto; /* Center the container */
 }
 
-.contact_options{
+.contact_options {
     display: flex;
     flex-direction: column;
-    gap:1.2rem;
-    
+    gap: 1.2rem;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
 }
 
-.contact_option{
+.contact_option {
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 5px solid transparent;
     transform: var(--transition);
+    width: 100%; /* Adjust width as needed */
+    max-width: 400px; /* Set a max-width for better control */
 }
 
-.contact_option:hover{
-    background:transparent;
+.contact_option:hover {
+    background: transparent;
     border-color: var(--color-primary-variant);
-
 }
 
-.contact_option-icon{
+.contact_option-icon {
     font-size: 1.5rem;
-    margin-bottom:0.5rem;
-
+    margin-bottom: 0.5rem;
 }
 
-.contact_option a{
+.contact_option a {
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
     overflow: scroll;
     align-items: center;
+    margin: 0 auto; /* Center the form */
+    width: 100%;
+    max-width: 400px; /* Set a max-width for better control */
 }
-input, textarea{
+
+input, textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    /* background: transparent; */
     border: 2px solid var(--color-primary-variant);
     resize: none;
     position: relative;
@@ -59,7 +64,7 @@ input, textarea{
     margin-top: 10px;
 }
 
-.name, .email, .msg{
+.name, .email, .msg {
     font-size: medium;
     width: 100%;
     max-width: 40rem;
@@ -69,24 +74,21 @@ input, textarea{
     resize: none;
 }
 
-
-@media screen and (max-width:1024px){
-   .container.contact_container{
-    grid-template-columns: 1fr;
-    gap:2rem;
-   }
+@media screen and (max-width: 1024px) {
+    .container.contact_container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 }
 
-@media screen and (max-width: 600px){
-    .container.contact_container{
-        width: 100%;
+@media screen and (max-width: 600px) {
+    .container.contact_container {
+        width: 80%;
         height: 100%;
-       }
+    }
 
-       form,
-    .contact_option{
-        width: 100%;
-        
-
+    form,
+    .contact_option {
+        width: 80%;
     }
 }

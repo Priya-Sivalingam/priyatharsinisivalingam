@@ -14,7 +14,6 @@ const header = () => {
       <h5 className='.container'>Computer Engineering Student</h5>
       <CTA/>
       <HeaderSocials/>
-
       <div className='me'>
         <img src={ME} alt='me'/>
       </div>
