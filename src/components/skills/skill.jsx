@@ -1,6 +1,6 @@
 import React from 'react';
 import './skill.css';
-import { FaJava, FaJsSquare, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaDatabase, FaGitAlt } from 'react-icons/fa';
+import { FaJava, FaJsSquare, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaDatabase, FaGitAlt,FaMicrosoft } from 'react-icons/fa';
 import { SiCplusplus, SiMysql, SiMongodb, SiMicrosoftsqlserver, SiSelenium, SiDotnet } from 'react-icons/si';
 
 const Skills = () => {
@@ -15,6 +15,8 @@ const Skills = () => {
             <li><SiCplusplus /> C++</li>
             <li><FaJsSquare /> JavaScript</li>
             <li><FaNodeJs /> Node JS</li>
+            <li><FaMicrosoft /> C#</li>
+            
           </ul>
         </div>
         <div className="skills-category box">
