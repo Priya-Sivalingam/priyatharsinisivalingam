@@ -2,8 +2,6 @@
 
 This is my portfolio website created using React.js. It showcases my projects, skills, and experience in web development.
 ## Demo
-![image](https://github.com/Priya-Sivalingam/My-Portfolio-/assets/112175724/e8a2e813-1c8f-4be4-8162-7cd301455f4a)
-
 You can view a live demo of this portfolio at [my-portfolio](https://65b67aee2ddcf9729eabc5aa--genuine-moonbeam-892a8e.netlify.app/).
 
 ## Features
