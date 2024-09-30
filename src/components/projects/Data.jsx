@@ -3,6 +3,7 @@ import Project2 from '../../assets/dog_cat.jpeg'
 import Project3 from '../../assets/Food Order.jpg'
 import Project4 from '../../assets/Registration.png'
 import Project5 from '../../assets/calculator.png'
+import Project6 from '../../assets/Project6.png'
 
 
 export const projectsData = [
@@ -40,6 +41,13 @@ export const projectsData = [
       title: "Calculator Application",
       category: "Web",
       Github:"https://github.com/Priya-Sivalingam/Calculator-Web-Application",
+    },
+    {
+      id: 6,
+      image: Project6,
+      title: "Employee Management System",
+      category: "Web",
+      Github:"https://github.com/Priya-Sivalingam/Employee-Management-System",
     },
    
 
