@@ -1,7 +1,7 @@
 import React from 'react';
 import './skill.css';
 import { FaJava, FaJsSquare, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaDatabase, FaGitAlt,FaMicrosoft } from 'react-icons/fa';
-import { SiCplusplus, SiMysql, SiMongodb, SiMicrosoftsqlserver, SiSelenium, SiDotnet } from 'react-icons/si';
+import { SiCplusplus, SiMysql, SiMongodb, SiMicrosoftsqlserver, SiSelenium, SiDotnet,SiSpringboot } from 'react-icons/si';
 
 const Skills = () => {
   return (
@@ -30,6 +30,7 @@ const Skills = () => {
         <div className="skills-category box">
           <h4>Frameworks</h4>
           <ul>
+            <li><SiSpringboot /> Spring Boot</li>
             <li><FaNodeJs /> Express JS</li>
             <li><SiDotnet /> .NET</li>
           </ul>

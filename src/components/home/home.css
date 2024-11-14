@@ -1,64 +1,43 @@
-header{
+header {
     height: 100%;
     padding-top: 5rem;
     overflow: hidden;
-}
-
-.header_container{
-    text-align: center;
+    display: flex; /* Use flexbox to align children */
+    justify-content: space-between; /* Space between the intro and image */
+  }
+  
+  .header_container {
+    display: flex; /* Use flexbox for the container */
+    align-items: center; /* Center items vertically */
     height: 100%;
-    position: relative;
-}
-.cta{
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
-}
-.header_Socials{
-    background: rgba(red, green, blue, alpha);
-    width: max-content;
-    display: block;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 2rem;
-    display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
-}
-
-
-/* me */
-.me{
-    background: linerar-gradient(var(--color-primary), transparent);
-    width: 20rem;
-    height: 100%;
-    position:absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 4rem;
+  }
+  
+  .intro {
+    flex: 1; /* Take up remaining space on the left */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .me {
+    width: 20rem; /* Keep image size consistent */
+    margin-left: 2rem; /* Add some spacing between the intro and the image */
     border-radius: 12rem 12rem 0 0;
-    overflow:hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5 rem;
-}
-
-@media screen and (min-width:1024px){
-    header{
-        height: 110vh;
+    overflow: hidden;
+  }
+  
+  /* Adjust styles for responsiveness */
+  @media screen and (max-width: 600px) {
+    header {
+      flex-direction: column; /* Stack items on small screens */
+      align-items: center; /* Center align the items */
     }
-}
-
-@media screen and (max-width:600px){
-    header{
-        height: 120vh;
+  
+    .me {
+      margin-left: 0; /* Reset margin on small screens */
+      margin-top: 2rem; /* Add space above the image */
     }
-
-    .scrolldown{
-    display: none;
-}
-}
-
+  
+    .intro {
+      text-align: center; /* Center text on small screens */
+    }
+  }
+  
