@@ -4,6 +4,8 @@ import Project3 from '../../assets/Food Order.jpg'
 import Project4 from '../../assets/Registration.png'
 import Project5 from '../../assets/calculator.png'
 import Project6 from '../../assets/Project6.png'
+import Project7 from '../../assets/embedde.jpg'
+import Project8 from '../../assets/traffic light.gif'
 
 
 export const projectsData = [
@@ -49,7 +51,20 @@ export const projectsData = [
       category: "Web",
       Github:"https://github.com/Priya-Sivalingam/Employee-Management-System",
     },
-   
+    {
+      id: 7,
+      image: Project7,
+      title: "Automatic Room Lighting Systems",
+      category: "embedded",
+      Github:"https://github.com/Priya-Sivalingam/Automatic-Room-Lighting-System",
+    },
+    {
+      id: 8,
+      image: Project8,
+      title: "Traffic Light Control System Using VHDL",
+      category: "Digital Design",
+      Github:"https://github.com/Priya-Sivalingam/Smart-Traffic-Control-System-using-VHDL",
+    },
 
    
   ];
@@ -69,6 +84,9 @@ export const projectsData = [
     },
     {
       name: 'DL',
+    },
+    {
+      name: 'embedded',
     },
   
   ]
