@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME  from '../../assets/WhatsApp.jpg'
+import ME  from '../../assets/WhatsApp Image 2024-11-15 at 00.17.02_c9fbc216.jpg'
 import HeaderSocials from '../header/headerSocials'
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/WhatsApp.jpg'
+import ME from '../../assets/WhatsApp Image 2024-10-14 at 20.06.18_33b32563.jpg'
 
 const About = () => {
   return (
@@ -15,10 +15,11 @@ const About = () => {
       </div>
 
       <div className="about_content">
-        <p>I’m a Computer engineering student with a passion for technology. 
-        Committed to continuous learning and growth in the field of engineering. 
-        A flexible person seeking a position that allows for collaboration within a dynamic
-team environment, fostering creativity, and achieving common goals. I believe in teamwork and I always consider the best outcome for the team.</p>
+        <p>I’m a Computer Engineering student from the University of Jaffna with strong
+problem-solving skills. Committed to continuous learning and growth in the
+field of engineering, I have a keen interest in Programming, FullStack development,machine learning and Deep Learning. I am a flexible individual
+seeking a position that allows for collaboration within a dynamic team environment, fostering creativity, and achieving common goals. click here for my
+GitHub profile.</p>
     
     <a href='#contacts' className='btn btn-primary '>Contact me</a>
 
