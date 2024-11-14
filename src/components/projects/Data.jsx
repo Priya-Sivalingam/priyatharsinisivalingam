@@ -88,6 +88,9 @@ export const projectsData = [
     {
       name: 'embedded',
     },
+    {
+      name: 'Digital Design',
+    },
   
   ]
   
