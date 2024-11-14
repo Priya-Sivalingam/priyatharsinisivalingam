@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Priya-Sivalingam/My-Portfolio/static/css/main.519cf619.css",
-    "main.js": "/Priya-Sivalingam/My-Portfolio/static/js/main.411eaa41.js",
-    "static/media/Project6.png": "/Priya-Sivalingam/My-Portfolio/static/media/Project6.9604f6ea0203b7349444.png",
-    "static/media/WhatsApp Image 2024-10-14 at 20.06.18_33b32563.jpg": "/Priya-Sivalingam/My-Portfolio/static/media/WhatsApp Image 2024-10-14 at 20.06.18_33b32563.eed341f746d613420fda.jpg",
-    "static/media/Kitchen.png": "/Priya-Sivalingam/My-Portfolio/static/media/Kitchen.b5a01d1a2d5bd802d5b5.png",
-    "static/media/2020E122_Priyatharsini_CV.pdf": "/Priya-Sivalingam/My-Portfolio/static/media/2020E122_Priyatharsini_CV.e8e709818a5d8dada7b4.pdf",
-    "static/media/traffic light.gif": "/Priya-Sivalingam/My-Portfolio/static/media/traffic light.dea9c9d0637c18011022.gif",
-    "static/media/WhatsApp Image 2024-11-15 at 00.17.02_c9fbc216.jpg": "/Priya-Sivalingam/My-Portfolio/static/media/WhatsApp Image 2024-11-15 at 00.17.02_c9fbc216.292c063ff274462f2909.jpg",
-    "static/media/embedde.jpg": "/Priya-Sivalingam/My-Portfolio/static/media/embedde.59cb3872f5099942fc6a.jpg",
-    "static/media/Registration.png": "/Priya-Sivalingam/My-Portfolio/static/media/Registration.74323d58c3792c3684dc.png",
-    "static/media/Food Order.jpg": "/Priya-Sivalingam/My-Portfolio/static/media/Food Order.aa9d572dcc0266187ee4.jpg",
-    "static/media/calculator.png": "/Priya-Sivalingam/My-Portfolio/static/media/calculator.9c02f2cc3fd634dead7d.png",
-    "index.html": "/Priya-Sivalingam/My-Portfolio/index.html",
-    "main.519cf619.css.map": "/Priya-Sivalingam/My-Portfolio/static/css/main.519cf619.css.map",
-    "main.411eaa41.js.map": "/Priya-Sivalingam/My-Portfolio/static/js/main.411eaa41.js.map"
+    "main.css": "/My-Portfolio/static/css/main.519cf619.css",
+    "main.js": "/My-Portfolio/static/js/main.55a18633.js",
+    "static/media/Project6.png": "/My-Portfolio/static/media/Project6.9604f6ea0203b7349444.png",
+    "static/media/WhatsApp Image 2024-10-14 at 20.06.18_33b32563.jpg": "/My-Portfolio/static/media/WhatsApp Image 2024-10-14 at 20.06.18_33b32563.eed341f746d613420fda.jpg",
+    "static/media/Kitchen.png": "/My-Portfolio/static/media/Kitchen.b5a01d1a2d5bd802d5b5.png",
+    "static/media/2020E122_Priyatharsini_CV.pdf": "/My-Portfolio/static/media/2020E122_Priyatharsini_CV.e8e709818a5d8dada7b4.pdf",
+    "static/media/traffic light.gif": "/My-Portfolio/static/media/traffic light.dea9c9d0637c18011022.gif",
+    "static/media/WhatsApp Image 2024-11-15 at 00.17.02_c9fbc216.jpg": "/My-Portfolio/static/media/WhatsApp Image 2024-11-15 at 00.17.02_c9fbc216.292c063ff274462f2909.jpg",
+    "static/media/embedde.jpg": "/My-Portfolio/static/media/embedde.59cb3872f5099942fc6a.jpg",
+    "static/media/Registration.png": "/My-Portfolio/static/media/Registration.74323d58c3792c3684dc.png",
+    "static/media/Food Order.jpg": "/My-Portfolio/static/media/Food Order.aa9d572dcc0266187ee4.jpg",
+    "static/media/calculator.png": "/My-Portfolio/static/media/calculator.9c02f2cc3fd634dead7d.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.519cf619.css.map": "/My-Portfolio/static/css/main.519cf619.css.map",
+    "main.55a18633.js.map": "/My-Portfolio/static/js/main.55a18633.js.map"
   },
   "entrypoints": [
     "static/css/main.519cf619.css",
-    "static/js/main.411eaa41.js"
+    "static/js/main.55a18633.js"
   ]
 }
