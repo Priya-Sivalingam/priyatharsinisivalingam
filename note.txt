@@ -1,0 +1,19 @@
+Create a gh-pages branch: GitHub Pages uses the gh-pages branch to serve your site.
+git checkout -b gh-pages
+
+Install GitHub Pages package: If you're using React (or other JavaScript frameworks), you need to install the gh-pages package:
+npm install gh-pages --save-dev
+
+Update package.json: In the package.json file, add the following properties:
+"homepage": "https://username.github.io/repository-name",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
+Build and Deploy: Now, run the deployment command:
+npm run deploy
+This will push your build to the gh-pages branch.
+
+Visit your website: After deployment, visit your GitHub Pages URL (https://username.github.io/repository-name) to see your live site.
+

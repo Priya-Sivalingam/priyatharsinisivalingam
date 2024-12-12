@@ -77,12 +77,6 @@ export const projectsData = [
       name: 'Web',
     },
     {
-      name: 'mobile',
-    },
-    {
-      name: 'ML',
-    },
-    {
       name: 'DL',
     },
     {
