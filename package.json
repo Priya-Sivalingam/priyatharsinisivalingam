@@ -16,8 +16,6 @@
     "web-vitals": "^2.1.4"
   },
 
-  "homepage": "https://Priya-Sivalingam.github.io/My-Portfolio/",
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
