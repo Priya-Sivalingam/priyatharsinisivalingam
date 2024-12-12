@@ -53,26 +53,37 @@
     
 
 }
-@media screen and (max-width:600px){
-    .about_me{
-        display: none;
-    }
-    .container.about_container{
-        grid-template-columns: none;
-        margin-bottom: 50px;
-    }
 
-    .about_content{
-        text-align: center;
-        margin: 0 auto;
-    }
-    .about_me-image{
-        bottom: 2rem;
-        height: 100%;
-    }
-
-    .about_content p{
-        margin: 0 auto;
-    }
     
+@media screen and (max-width:600px) {
+    .about_me {
+        display: block; /* Ensure the image container is visible */
+        width: 70%; /* Adjust the size to fit smaller screens */
+        margin: 1rem auto; /* Center the image */
+    }
+
+    .about_me-image {
+        bottom: 0; /* Reset positioning if needed */
+        width: 100%; /* Ensure the image fills the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .container.about_container {
+        grid-template-columns: 1fr; /* Simplify the layout */
+        margin-bottom: 6rem;
+    }
+
+    .about_content {
+        text-align: center;
+        /* margin: 0 auto; */
+        margin-top: -100px;
+        margin-bottom: 100px;
+
+        
+    }
+
+    .about_content p {
+        margin: 1rem 0;
+    }
 }
+

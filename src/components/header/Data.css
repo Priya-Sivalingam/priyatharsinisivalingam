@@ -1,13 +1,21 @@
 .home_title .hover-effect {
     display: inline-block;
+    font-size:2rem;
   }
-  
+
+  .btn{
+    margin-top: 50px;
+    
+  }
+  .second{
+    color:aliceblue;
+  }
   .home_title .letter {
-    color:rgb(7, 7, 224);
+    color:rgb(255, 255, 255);
     display: inline-block;
     opacity: 0; 
     animation: typing 1.5s steps(1) forwards;
-  animation-iteration-count: infinite; /* Infinite loop */
+    animation-iteration-count: infinite; /* Infinite loop */
   }
   
   .home_title .letter:nth-child(1) {
