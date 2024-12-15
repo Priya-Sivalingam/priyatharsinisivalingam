@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.bbd4fd91.css",
+    "main.js": "./static/js/main.f0f2052f.js",
+    "static/media/Project6.png": "./static/media/Project6.9604f6ea0203b7349444.png",
+    "static/media/WhatsApp Image 2024-10-14 at 20.06.18_33b32563.jpg": "./static/media/WhatsApp Image 2024-10-14 at 20.06.18_33b32563.eed341f746d613420fda.jpg",
+    "static/media/Kitchen.png": "./static/media/Kitchen.b5a01d1a2d5bd802d5b5.png",
+    "static/media/traffic light.gif": "./static/media/traffic light.dea9c9d0637c18011022.gif",
+    "static/media/embedde.jpg": "./static/media/embedde.59cb3872f5099942fc6a.jpg",
+    "static/media/Registration.png": "./static/media/Registration.74323d58c3792c3684dc.png",
+    "static/media/Food Order.jpg": "./static/media/Food Order.aa9d572dcc0266187ee4.jpg",
+    "static/media/calculator.png": "./static/media/calculator.9c02f2cc3fd634dead7d.png",
+    "index.html": "./index.html",
+    "main.bbd4fd91.css.map": "./static/css/main.bbd4fd91.css.map",
+    "main.f0f2052f.js.map": "./static/js/main.f0f2052f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbd4fd91.css",
+    "static/js/main.f0f2052f.js"
+  ]
+}
