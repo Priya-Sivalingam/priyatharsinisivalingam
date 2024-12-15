@@ -6,7 +6,7 @@ const Social = () => {
     <div className="home_social">
       <div className="icon_wrapper">
         <a
-          href="https://github.com/Manimohan05"
+          href="https://github.com/Priya-Sivalingam"
           className="home_social-icon"
           target="_blank"
           rel="noopener noreferrer"
@@ -16,7 +16,7 @@ const Social = () => {
       </div>
       <div className="icon_wrapper">
         <a
-          href="https://www.linkedin.com/in/tmanimohan"
+          href="www.linkedin.com/in/priyatharsinis"
           className="home_social-icon"
           target="_blank"
           rel="noopener noreferrer"
@@ -26,7 +26,7 @@ const Social = () => {
       </div>
       <div className="icon_wrapper">
         <a
-          href="mailto:manimohan517@gmail.com"
+          href="mailto:priyatharsinisivalingamintern@gmail.com"
           className="home_social-icon"
           target="_blank"
           rel="noopener noreferrer"
@@ -36,7 +36,7 @@ const Social = () => {
       </div>
       <div className="icon_wrapper">
         <a
-          href="https://www.instagram.com/manimohan_04/"
+          href="https://www.instagram.com/priyatharsini_06/"
           className="home_social-icon"
           target="_blank"
           rel="noopener noreferrer"

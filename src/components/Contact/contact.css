@@ -1,7 +1,7 @@
 .container.contact_container {
-    width: 58%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 30% 29%;
+    grid-template-columns: 50% 50%;
     gap: 12%;
     position: relative;
     margin: 0 auto; /* Center the container */
@@ -48,9 +48,9 @@ form {
     gap: 1.2rem;
     overflow: scroll;
     align-items: center;
-    margin: 0 auto; /* Center the form */
-    width: 100%;
-    max-width: 400px; /* Set a max-width for better control */
+    margin-left: -50px; /* Center the form */
+    width: 80%;
+    
 }
 
 input{
@@ -102,6 +102,19 @@ textarea{
 
     form,
     .contact_option {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .container.contact_container {
         width: 80%;
+        height: 100%;
+    }
+
+    form,
+    .contact_option {
+        width: 80%;
+        margin: 0 auto; /* Center the form */
     }
 }
