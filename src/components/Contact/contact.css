@@ -1,7 +1,7 @@
 .container.contact_container {
     width: 58%;
     display: grid;
-    grid-template-columns: 30% 29%;
+    grid-template-columns: 50% 50%;
     gap: 12%;
     position: relative;
     margin: 0 auto; /* Center the container */
@@ -23,7 +23,6 @@
     border: 5px solid transparent;
     transform: var(--transition);
     width: 100%; /* Adjust width as needed */
-    max-width: 400px; /* Set a max-width for better control */
 }
 
 .contact_option:hover {
@@ -50,7 +49,6 @@ form {
     align-items: center;
     margin: 0 auto; /* Center the form */
     width: 100%;
-    max-width: 400px; /* Set a max-width for better control */
 }
 
 input{

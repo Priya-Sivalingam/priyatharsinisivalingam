@@ -1,7 +1,7 @@
 import React from 'react';
 import './skill.css';
-import { FaJava, FaJsSquare, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaDatabase, FaGitAlt,FaMicrosoft } from 'react-icons/fa';
-import { SiCplusplus, SiMysql, SiMongodb, SiMicrosoftsqlserver, SiSelenium, SiDotnet,SiSpringboot } from 'react-icons/si';
+import { FaJava, FaPython, FaReact, FaGitAlt, FaAws } from 'react-icons/fa';
+import { SiCplusplus, SiMysql, SiMongodb, SiMicrosoftsqlserver, SiDotnet, SiSpringboot, SiVisualstudiocode, SiIntellijidea, SiJupyter, SiAnaconda } from 'react-icons/si';
 
 const Skills = () => {
   return (
@@ -13,26 +13,15 @@ const Skills = () => {
           <ul>
             <li><FaJava /> Java</li>
             <li><SiCplusplus /> C++</li>
-            <li><FaJsSquare /> JavaScript</li>
-            <li><FaNodeJs /> Node JS</li>
-            <li><FaMicrosoft /> C#</li>
-            
-          </ul>
-        </div>
-        <div className="skills-category box">
-          <h4>Web Development</h4>
-          <ul>
-            <li><FaHtml5 /> HTML</li>
-            <li><FaCss3Alt /> CSS</li>
-            <li><FaReact /> ReactJS</li>
+            <li><FaPython /> Python</li>
           </ul>
         </div>
         <div className="skills-category box">
           <h4>Frameworks</h4>
           <ul>
-            <li><SiSpringboot /> Spring Boot</li>
-            <li><FaNodeJs /> Express JS</li>
             <li><SiDotnet /> .NET</li>
+            <li><SiSpringboot /> Spring Boot</li>
+            <li><FaReact /> React</li>
           </ul>
         </div>
         <div className="skills-category box">
@@ -44,10 +33,24 @@ const Skills = () => {
           </ul>
         </div>
         <div className="skills-category box">
-          <h4>DevOps</h4>
+          <h4>Version Control</h4>
           <ul>
-            <li><FaGitAlt /> Git</li>
-            <li><SiSelenium /> Testing (Selenium)</li>
+            <li><FaGitAlt /> Git and GitHub</li>
+          </ul>
+        </div>
+        <div className="skills-category box">
+          <h4>Cloud</h4>
+          <ul>
+            <li><FaAws /> AWS</li>
+          </ul>
+        </div>
+        <div className="skills-category box">
+          <h4>Tools</h4>
+          <ul>
+            <li><SiVisualstudiocode /> Visual Studio Code</li>
+            <li><SiIntellijidea /> IntelliJ IDEA</li>
+            <li><SiJupyter /> Jupyter Notebook</li>
+            <li><SiAnaconda /> Anaconda</li>
           </ul>
         </div>
       </div>
