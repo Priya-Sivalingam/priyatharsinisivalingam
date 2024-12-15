@@ -1,8 +1,6 @@
 # Portfolio
 
 This is my portfolio website created using React.js. It showcases my projects, skills, and experience in web development.
-## Demo
-You can view a live demo of this portfolio at [my-portfolio](https://65b67aee2ddcf9729eabc5aa--genuine-moonbeam-892a8e.netlify.app/).
 
 ## Features
 
